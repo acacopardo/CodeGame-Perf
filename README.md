@@ -1,12 +1,14 @@
 # CodeGame-Perf
 
-##Install:##
+## Install:
 `git clone git@github.com:acacopardo/CodeGame-Perf.git`
 `composer install`
 `docker-compose up -d`
 
-##Enoncer:##
+## Enoncer:
 
 
-##Commen tester:##
+
+## Commen tester:
+
 `docker exec -it 'name of container' vendor/bin/phing run`
