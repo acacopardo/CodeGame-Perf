@@ -1,0 +1,16 @@
+{
+    "name": "roberto/code-game-perf",
+    "authors": [
+        {
+            "name": "Anthony C",
+            "email": "pookiie57@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "overtrue/phplint": "^1.1",
+        "phpmd/phpmd" : "^2.6",
+        "codeception/codeception": "^2.4"
+    }
+}
