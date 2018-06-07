@@ -2,14 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd07d05a-33c8-4d34-acdd-3e23a4143b54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generator/BubbleSorting.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generator/FileManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generator/generator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CodeGame-Perf.iml" afterPath="$PROJECT_DIR$/.idea/CodeGame-Perf.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/_generated/UnitTesterActions.php" afterPath="$PROJECT_DIR$/tests/_support/_generated/UnitTesterActions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator/BubbleSorting.php" afterPath="$PROJECT_DIR$/generator/BubbleSorting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input1.php" afterPath="$PROJECT_DIR$/inputs/input1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input10.php" afterPath="$PROJECT_DIR$/inputs/input10.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input11.php" afterPath="$PROJECT_DIR$/inputs/input11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input12.php" afterPath="$PROJECT_DIR$/inputs/input12.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input13.php" afterPath="$PROJECT_DIR$/inputs/input13.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input14.php" afterPath="$PROJECT_DIR$/inputs/input14.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input15.php" afterPath="$PROJECT_DIR$/inputs/input15.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input16.php" afterPath="$PROJECT_DIR$/inputs/input16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input17.php" afterPath="$PROJECT_DIR$/inputs/input17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input18.php" afterPath="$PROJECT_DIR$/inputs/input18.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input19.php" afterPath="$PROJECT_DIR$/inputs/input19.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input2.php" afterPath="$PROJECT_DIR$/inputs/input2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input20.php" afterPath="$PROJECT_DIR$/inputs/input20.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input3.php" afterPath="$PROJECT_DIR$/inputs/input3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input4.php" afterPath="$PROJECT_DIR$/inputs/input4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input5.php" afterPath="$PROJECT_DIR$/inputs/input5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input6.php" afterPath="$PROJECT_DIR$/inputs/input6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input7.php" afterPath="$PROJECT_DIR$/inputs/input7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input8.php" afterPath="$PROJECT_DIR$/inputs/input8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inputs/input9.php" afterPath="$PROJECT_DIR$/inputs/input9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output1.php" afterPath="$PROJECT_DIR$/outputs/output1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output10.php" afterPath="$PROJECT_DIR$/outputs/output10.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output11.php" afterPath="$PROJECT_DIR$/outputs/output11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output12.php" afterPath="$PROJECT_DIR$/outputs/output12.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output13.php" afterPath="$PROJECT_DIR$/outputs/output13.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output14.php" afterPath="$PROJECT_DIR$/outputs/output14.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output15.php" afterPath="$PROJECT_DIR$/outputs/output15.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output16.php" afterPath="$PROJECT_DIR$/outputs/output16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output17.php" afterPath="$PROJECT_DIR$/outputs/output17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output18.php" afterPath="$PROJECT_DIR$/outputs/output18.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output19.php" afterPath="$PROJECT_DIR$/outputs/output19.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output2.php" afterPath="$PROJECT_DIR$/outputs/output2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output20.php" afterPath="$PROJECT_DIR$/outputs/output20.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output3.php" afterPath="$PROJECT_DIR$/outputs/output3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output4.php" afterPath="$PROJECT_DIR$/outputs/output4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output5.php" afterPath="$PROJECT_DIR$/outputs/output5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output6.php" afterPath="$PROJECT_DIR$/outputs/output6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output7.php" afterPath="$PROJECT_DIR$/outputs/output7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output8.php" afterPath="$PROJECT_DIR$/outputs/output8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/outputs/output9.php" afterPath="$PROJECT_DIR$/outputs/output9.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +77,8 @@
       <file leaf-file-name="generator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator/generator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#7#35#0#PHP" expanded="true" />
               </folding>
@@ -58,7 +92,7 @@
             <state relative-caret-position="-32047">
               <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding>
-                <marker date="1528378182000" expanded="true" signature="20:154864" ph="..." />
+                <marker date="1528379233000" expanded="true" signature="20:155453" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/outputs/output1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="6365" column="2" lean-forward="false" selection-start-line="6365" selection-start-column="2" selection-end-line="6365" selection-end-column="2" />
+              <caret line="8751" column="2" lean-forward="false" selection-start-line="8751" selection-start-column="2" selection-end-line="8751" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -84,21 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standard_4.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <file leaf-file-name="BubbleSorting.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator/BubbleSorting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="217" column="9" lean-forward="false" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BubbleSorting.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generator/BubbleSorting.php">
+      <file leaf-file-name="standard_4.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="309">
+              <caret line="217" column="9" lean-forward="false" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -238,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6560000" />
+    <option name="totallyTimeSpent" value="7040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -350,7 +384,7 @@
         <state relative-caret-position="-32047">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding>
-            <marker date="1528378182000" expanded="true" signature="20:154864" ph="..." />
+            <marker date="1528379233000" expanded="true" signature="20:155453" ph="..." />
           </folding>
         </state>
       </provider>
@@ -363,20 +397,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generator/PwUTR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/generator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="e#7#35#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="998" column="9" lean-forward="false" selection-start-line="998" selection-start-column="9" selection-end-line="998" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputs/output1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="8751" column="2" lean-forward="false" selection-start-line="8751" selection-start-column="2" selection-end-line="8751" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="217" column="9" lean-forward="false" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs/input1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32047">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <marker date="1528379233000" expanded="true" signature="20:155453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/test.php" />
+    <entry file="file://$PROJECT_DIR$/generator/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#35#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator/FileManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator/BubbleSorting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
           <folding />
         </state>
       </provider>
