@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="BubbleSort" default="run" basedir=".">
+    <property name="increment" value="0" />
+
+    <target name="run" depends="cleanFiles, phpMd, phpCs, phpLint, phpUnit, acceptance">
+        <phingcall target="displayScore" />
+        <phingcall target="cleanFiles" />
+    </target>
+
+    <target name="incrementScore">
+        <if>
+            <not>
+                <available property="scoreFile" file="score.txt"/>
+            </not>
+            <then>
+                <exec command="echo 0 >score.txt" />
+            </then>
+        </if>
+        <exec command="expr $(head -n1 score.txt) + ${increment} >score.txt" />
+    </target>
+
+    <target name="displayScore">
+        <exec command="cat score.txt" outputProperty="score" />
+        <echo msg="Score : ${score}" />
+    </target>
+
+    <target name="cleanFiles">
+        <delete file="score.txt" />
+    </target>
+
+    <target name="phpMd">
+        <echo msg="************* PHP MD" />
+        <phpmd file="test.php" rulesets="phpmd.xml">
+            <formatter type="text" outfile="phpmd.txt"/>
+        </phpmd>
+        <filesize file="phpmd.txt" propertyname="filesize" />
+        <if>
+            <equals arg1="${filesize}" arg2="0"/>
+            <then>
+                <phingcall target="incrementScore">
+                    <property name="increment" value="1" override="true" />
+                </phingcall>
+            </then>
+        </if>
+        <phingcall target="displayScore" />
+        <delete file="phpmd.txt" />
+    </target>
+
+    <target name="phpCs">
+        <exec command="phpcs --report=full --report-file=phpcs.txt" logoutput="false"/>
+        <filesize file="phpcs.txt" propertyname="lineCs" />
+        <if>
+            <equals arg1="${lineCs}" arg2="1"/>
+            <then>
+                <phingcall target="incrementScore" inheritRefs="true">
+                    <property name="increment" value="1" override="true" />
+                </phingcall>
+            </then>
+        </if>
+        <phingcall target="displayScore" />
+        <delete file="phpcs.txt" />
+    </target>
+
+    <target name="phpLint">
+        <phplint tofile="phpLint.txt">
+            <fileset dir=".">
+                <include name="*.php"/>
+            </fileset>
+        </phplint>
+        <filesize file="phpLint.txt" propertyname="filesize" />
+        <if>
+            <equals arg1="${filesize}" arg2="0"/>
+            <then>
+                <phingcall target="incrementScore">
+                    <property name="increment" value="1" override="true" />
+                </phingcall>
+            </then>
+        </if>
+        <phingcall target="displayScore" />
+        <delete file="phpLint.txt" />
+    </target>
+
+    <target name="phpUnit">
+
+    </target>
+
+    <target name="acceptance">
+
+    </target>
+</project>
