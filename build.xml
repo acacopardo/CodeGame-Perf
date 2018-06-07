@@ -3,12 +3,14 @@
 <project name="BubbleSort" default="run" basedir=".">
     <property name="increment" value="0" />
 
-    <target name="run" depends="cleanFiles, phpMd, phpCs, phpLint, phpUnit, acceptance">
-        <phingcall target="displayScore" />
+    <target name="run" depends="cleanFiles, init, phpMd, phpCs, phpLint, phpUnit, acceptance">
+        <phingcall target="displayScore">
+            <property name="target" value="Total" override="true" />
+        </phingcall>
         <phingcall target="cleanFiles" />
     </target>
 
-    <target name="incrementScore">
+    <target name="init">
         <if>
             <not>
                 <available property="scoreFile" file="score.txt"/>
@@ -17,12 +19,17 @@
                 <exec command="echo 0 >score.txt" />
             </then>
         </if>
+    </target>
+
+    <target name="incrementScore">
         <exec command="expr $(head -n1 score.txt) + ${increment} >score.txt" />
     </target>
 
     <target name="displayScore">
         <exec command="cat score.txt" outputProperty="score" />
-        <echo msg="Score : ${score}" />
+        <echo msg="*********************************
+                    Score (${target}) : ${score}
+                    *********************************" />
     </target>
 
     <target name="cleanFiles">
@@ -31,7 +38,10 @@
 
     <target name="phpMd">
         <echo msg="************* PHP MD" />
-        <phpmd file="test.php" rulesets="phpmd.xml">
+        <phpmd rulesets="phpmd.xml">
+            <fileset dir="${project.basedir}/generator">
+                <include name="*.php" />
+            </fileset>
             <formatter type="text" outfile="phpmd.txt"/>
         </phpmd>
         <filesize file="phpmd.txt" propertyname="filesize" />
@@ -43,12 +53,14 @@
                 </phingcall>
             </then>
         </if>
-        <phingcall target="displayScore" />
+        <phingcall target="displayScore" >
+            <property name="target" value="phpMd" override="true" />
+        </phingcall>
         <delete file="phpmd.txt" />
     </target>
 
     <target name="phpCs">
-        <exec command="phpcs --report=full --report-file=phpcs.txt" logoutput="false"/>
+        <exec command="phpcs --report=json --report-file=phpcs.txt" logoutput="false"/>
         <filesize file="phpcs.txt" propertyname="lineCs" />
         <if>
             <equals arg1="${lineCs}" arg2="1"/>
@@ -58,7 +70,9 @@
                 </phingcall>
             </then>
         </if>
-        <phingcall target="displayScore" />
+        <phingcall target="displayScore" >
+            <property name="target" value="phpCs" override="true" />
+        </phingcall>
         <delete file="phpcs.txt" />
     </target>
 
@@ -77,12 +91,27 @@
                 </phingcall>
             </then>
         </if>
-        <phingcall target="displayScore" />
+        <phingcall target="displayScore" >
+            <property name="target" value="phpLint" override="true" />
+        </phingcall>
         <delete file="phpLint.txt" />
     </target>
 
     <target name="phpUnit">
-
+        <exec command="vendor/bin/codecept run unit >phpUnit.txt" />
+        <exec command="cat phpUnit.txt | grep 'FAILURE' | wc -l" outputProperty="result" />
+        <if>
+            <equals arg1="${result}" arg2="0"/>
+            <then>
+                <phingcall target="incrementScore">
+                    <property name="increment" value="1" override="true" />
+                </phingcall>
+            </then>
+        </if>
+        <phingcall target="displayScore" >
+            <property name="target" value="phpUnit" override="true" />
+        </phingcall>
+        <delete file="phpUnit.txt" />
     </target>
 
     <target name="acceptance">

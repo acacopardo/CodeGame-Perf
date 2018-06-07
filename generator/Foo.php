@@ -1,5 +1,5 @@
 <?php
-namespace GameTest;
+namespace Generator;
 
 class Foo
 {

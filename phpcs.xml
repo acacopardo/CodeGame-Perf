@@ -12,7 +12,6 @@
         <exclude name="Generic.Files.LineLength"/>
     </rule>
 
-    <!--<file>app</file>
-    <file>test</file>-->
-    <file>test.php</file>
+    <file>generator</file>
+    <file>tests</file>
 </ruleset>
